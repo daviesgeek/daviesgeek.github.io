@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" />
+
+  
+    <meta name="description" content="Posts:
+{% for post in site.posts %}
+  {% include truncated-pos..." />
+  
+
+  
+    <title>daviesgeek.com</title>
+  
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/unsemantic/0/unsemantic-grid-responsive.css" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="shortcut icon" href="/icons/favicon.ico" />
+  <link rel="sitemap" href="/sitemap.xml" />
+  <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png" />
+  <link rel="icon" type="image/png" href="/icons/favicon-192x192.png" sizes="192x192" />
+  <link rel="icon" type="image/png" href="/icons/favicon-160x160.png" sizes="160x160" />
+  <link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png" />
+  <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+  
+  <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52324811-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-3115487069803404",
+      enable_page_level_ads: true
+    });
+  </script>
+  
+</head>
+
+<body>
+  <header>
+    <div class="grid-container">
+      
+        <h3 class="site-title">daviesgeek.com</h3>
+      
+      <h6 class="subheader">The web home and personal blog of Matthew Davies</h6>
+    </div>
+    <nav class="navigation grid-100">
+      <ul class="row grid-container grid-100">
+        <!-- <li><a href="/about-me">About Me</a></li> -->
+        <!-- <li><a href="/">Home</a></li> -->
+        <li><a href="/">Posts</a></li>
+        <li><a href="/categories">Categories</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="grid-container">
+    <div class="sidebar grid-30 hide-on-mobile push-70 columns white-panel">
+      <h5>About Me</h5>
+      <img class="grid-100" src="https://www.gravatar.com/avatar/b4d9c445d22743e0c9283a9b023c053f?s=512" alt="" />
+      <p>I am a technology geek and a film enthusiast. I currently work as a developer at <a href="http://geostrategies.com">GeoStrategies.</a> I have experience with HTML, CSS, PHP &amp; JavaScript.</p>
+      <p>To get in touch with me, feel free to email me at <a href="mailto:&#109;&#097;&#116;&#116;&#104;&#101;&#119;&#064;&#100;&#097;&#118;&#105;&#101;&#115;&#103;&#101;&#101;&#107;&#046;&#099;&#111;&#109;">&#109;&#097;&#116;&#116;&#104;&#101;&#119;&#064;&#100;&#097;&#118;&#105;&#101;&#115;&#103;&#101;&#101;&#107;&#046;&#099;&#111;&#109;</a></p>
+      <p>If you'd like to find me elsewhere, here are some links:</p>
+      <a href="http://twitter.com/daviesgeek" class="icon twitter" target="_blank" title="This is probably the best place to keep up with the random stuff I'm doing and saying."></a>
+      <a href="http://github.com/daviesgeek" class="icon github" target="_blank" title="Check out my code on GitHub"></a>
+      <a href="http://stackexchange.com/users/448864/daviesgeek" class="icon stackexchange" target="_blank" title="I couldn't think up a good title for this one, so I put this instead"></a>
+      <p>And of course, if you'd like to use your favorite RSS reader:</p>
+      <a href="/feed.xml" class="icon rss" target="_blank" title="Really Simple to Subscribe"></a>
+    </div>
+    <div class="content grid-70 pull-30 columns">
+<h2>Posts:</h2>
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2015/05/Web-tools-are-the-problem">Web tools are the problem</a> <small>- May 23, 2015</small></h3>
+  <div>
+    
+      <p>Peter-Paul Koch on the ever growing overcomplication of web tools:</p>
+
+<blockquote>
+  <p>Why all the cruft?…<br />
+Tools don’t solve problems any more, they have <em>become</em> the problem.</p>
+</blockquote>
+
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2015/05/Angular-service-provider-config">Angular Service Providers with config</a> <small>- May 22, 2015</small></h3>
+  <div>
+    
+      <p>Simple example of an Angular service provider with configuration option(s):
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2015/03/Google-Chrome-41">Google Chrome 41 update</a> <small>- March 06, 2015</small></h3>
+  <div>
+    
+      Cool updates to Google Chrome today. More recently I have been doing cross-browser testing in Firefox. One of the features of the Firefox inspector is a nice little highlight that shows up on elements that have changing properties:
+
+
+
+Chrome recently added this feature in the latest update (v41)
+
+
+As you can see, it is a very useful tool for any web developer using Chrome’s (or Firefox’s) inspector. Thank you Google :)
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2015/02/Running-Docker-on-OS-X">Running Docker on OS X</a> <small>- February 05, 2015</small></h3>
+  <div>
+    
+      Recently I started using Docker for my side projects and for the Valley Hackathon a couple weeks ago. I really like the flexiblity and encapsulation that it offers, in contrast to tools like Vagrant. However, on a Mac, Docker runs on boot2docker, a tiny image built just to run Docker containers within VirtualBox. This can cause some problems with features such as shared folders, since the Docker container loads volumes from within the boot2docker machine, not your OS X machine. Fortunately there’s a build of boot2docker that enables shared folders (via the Guest Additions). To install it: # First stop...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2014/11/Blog-migration">Blog Migration</a> <small>- November 13, 2014</small></h3>
+  <div>
+    
+      I recently switched this blog over from my old Blogger blog. I have been on Blogger for many years, but I never really loved it. Several months ago, I discovered Jekyll and GitHub Pages. Jekyll is a static blogging blogging/website engine that has all the convenience of a dynamic website, but with the speed of a static HTML website. I started using Jekyll and quickly realized that I had to move my blog over to Jekyll. I first started by just creating a GitHub pages repository (hosted as a subdomain on github.io). A couple days ago I bought this domain...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2013/01/update">Update</a> <small>- January 25, 2013</small></h3>
+  <div>
+    
+      
+  I apologize that I haven't written anything in a long time. I haven't forgotten, nor completely abandoned my blog. School and work have been my life for the last several months and I haven't had much time to work on anything else. I do plan on posting in the future and I'm also potentially looking to move to a .com domain at some point so that I'm hosting and running the entire blog myself.
+  Stay tuned! Hopefully I'll post a couple times this summer and I'm hoping to post a bit more over the summer.
+  Matthew
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/10/ipad-mini-announced">iPad mini announced!</a> <small>- October 23, 2012</small></h3>
+  <div>
+    
+      <div class="css-full-post-content js-full-post-content">
+  <div class="separator" style="clear: both; text-align: center;">
+    <a href="https://4.bp.blogspot.com/-MXZ528N-86c/UIbZadYM2xI/AAAAAAAAAuk/E7zpkcEjJfA/s1600/appleipadminiliveblog20124920.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img height="212" src="https://4.bp.blogspot.com/-MXZ528N-86c/UIbZadYM2xI/AAAAAAAAAuk/E7zpkcEjJfA/s320/appleipadminiliveblog20124920.jpg" width="320"></a>
+  </div>Apple announced an iPad mini that is as thin as pencil and weighs just over half a pound, as light as a pad of paper. It has a 7.9" display. Apple has made the iPad so that it has the same resolution as the 1024 x 768 iPad 2, so no extra work for developers. It sports a 720p FaceTime HD camera, a 5MP iSight camera, and a dual core A5 chip, as well as having LTE. And even though it's a smaller form factor, it still has a 10-hour battery life! It starts at $329 for a 16GB Wi-Fi only.
+</div>
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/10/new-retina-13-macbook-pro">New retina 13" MacBook Pro!</a> <small>- October 23, 2012</small></h3>
+  <div>
+    
+      <div class="css-full-post-content js-full-post-content">
+  <div class="separator" style="clear: both; text-align: center;">
+    <a href="https://4.bp.blogspot.com/-8ISpvilWdb8/UIbSMcIUNuI/AAAAAAAAAuQ/Bw1Mtb60XF4/s1600/appleipadminiliveblog20124827.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img height="212" src="https://4.bp.blogspot.com/-8ISpvilWdb8/UIbSMcIUNuI/AAAAAAAAAuQ/Bw1Mtb60XF4/s320/appleipadminiliveblog20124827.jpg" width="320"></a>
+  </div>This morning, Apple announced an all-new 13" retina MacBook Pro. It is very similar to <a href="http://thegeektechblog.blogspot.com/2012/06/next-generation-macbook-pro-announced.html" rel="nofollow" target="_blank">the 15" retina announced at WWDC</a>. The one downside that I see is that it isn't user-serviceable and it doesn't have an optical drive. Not that I want an optical drive, but I want to be able to put a second hard drive in the optical bay for a lot more space. As a video editor, I really need the extra space.
+</div>
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/10/live-streaming-of-apple-event-today">Live streaming of the Apple event today</a> <small>- October 23, 2012</small></h3>
+  <div>
+    
+      <div class="css-full-post-content js-full-post-content">
+  Today is another big day! Apple has scheduled an event for 10:00 AM PDT where the rumors are that they will release the long-awaited iPad mini. Apple decided to live stream this event, something they haven't done for awhile. Usually Apple releases the video later in the day, but there hasn't been a live stream in a couple years. That's all changed now! You can watch live video from the event here: http://www.apple.com/apple-events/october-2012/<br>
+  <br>
+  Note: you must use Safari or iOS to watch the event. Chrome for OS X doesn't work :-(
+</div>
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/10/october-23rd">October 23rd</a> <small>- October 20, 2012</small></h3>
+  <div>
+    
+      <div class="separator" style="clear: both; text-align: center;">
+  <a href="https://4.bp.blogspot.com/-UdJCpUaj7Jg/UIJDb1bztiI/AAAAAAAAAt8/4HCf4B12V2s/s1600/Oct23_appleevent1-640x501.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img height="249" src="https://4.bp.blogspot.com/-UdJCpUaj7Jg/UIJDb1bztiI/AAAAAAAAAt8/4HCf4B12V2s/s320/Oct23_appleevent1-640x501.png" width="320" /></a>
+</div>
+It's been awhile since I've written, since I've been busy, but there's news!! The rumors are confirmed; there <i>is</i> going to be an Apple event on October 23rd. Attendees began receiving invitations on Tuesday, according to <a href="http://www.imore.com/apple-sends-out-invitations-october-23-ipad-mini-event" rel="nofollow" target="_blank">iMore</a>&nbsp;and <a href="http://arstechnica.com/apple/2012/10/october-23-apple-confirmed-weve-got-a-little-more-to-show-you/" rel="nofollow" target="_blank">Arstechnica</a>. The tagline? "We've got a little more to show you." And interesting tagline, especially considering that all the rumors are pointing to the release of a smaller (little), 7.85" iPad. In addition, Apple is also rumored to refresh the iPad 3, with the new Lightning connector, as well as iMacs, Mac minis, 13-inch retina MacBook Pro, and the release of iTunes 11.<br />
+<br />
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/09/september-12th-liveblog-feeds">September 12th liveblog feeds</a> <small>- September 12, 2012</small></h3>
+  <div>
+    
+      <div class="separator" style="clear: both; text-align: left;">
+  <a href="https://3.bp.blogspot.com/-GLCipZ6ynGo/UE0b-6FYf4I/AAAAAAAAAtA/muBCOKT6APY/s1600/iphone-5-final-yerba.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="iPhone 5 Yerba Buena September 12th, 2012" height="320" src="https://3.bp.blogspot.com/-GLCipZ6ynGo/UE0b-6FYf4I/AAAAAAAAAtA/muBCOKT6APY/s320/iphone-5-final-yerba.jpg" width="308"></a>
+</div>Today is the big day! If you are like me, you've been looking forward to what will be announced and are going to follow all the liveblogs. So here are a couple (well, okay...more than a couple...lots) of links to liveblog feeds for the event: <a href="http://live.slashgear.com/" rel="nofollow" target="_blank">SlashGear</a>,&nbsp;<a href="http://www.applefansite.com/2012/08/september-12th-iphone-5-ipad-mini-live-keynote-coverage/" rel="nofollow" target="_blank">AppleFanSite</a>, <a href="http://live.theverge.com/apple-iphone-5-live-blog/" rel="nofollow" target="_blank">The Verge</a>, <a href="http://www.maclife.com/article/news/live_blog_apple_iphone_5_event" rel="nofollow" target="_blank">Mac Life</a>, <a href="http://www.engadget.com/2012/09/12/apple-iphone-5-liveblog/" rel="nofollow" target="_blank">Engadget</a>, <a href="http://live.gdgt.com/live-iphone-5-launch-coverage/" rel="nofollow" target="_blank">gdgt</a>, <a href="http://live.cnet.com/Event/CNETs_Apple_event_live_blog_Wednesday_September_12" rel="nofollow" target="_blank">Cnet</a>, <a href="http://time.com/iphone5" rel="nofollow" target="_blank">TIME</a>, <a href="http://live.gizmodo.com/" rel="nofollow" target="_blank">Gizmodo</a>.<br>
+<br>
+And some live coverage links: <a href="http://www.ustream.tv/ltktv" rel="nofollow" target="_blank">AppleKeynotes</a>,&nbsp;<a href="http://live.twit.tv/" rel="nofollow" target="_blank">MacBreak Weekly</a>.<br>
+<br>
+Take your pick of the links above. They are all good live blogs and you can't really go wrong with any of them.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/09/the-september-12th-event">The September 12th event</a> <small>- September 07, 2012</small></h3>
+  <div>
+    
+      <div class="separator" style="clear: both; text-align: center;"></div>
+
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="https://4.bp.blogspot.com/-w4eTXVPoTfw/UEmH7mywyfI/AAAAAAAAAss/5KG5tDYHPFM/s1600/Apple-event1.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img height="286" src="https://4.bp.blogspot.com/-w4eTXVPoTfw/UEmH7mywyfI/AAAAAAAAAss/5KG5tDYHPFM/s320/Apple-event1.jpg" width="320"></a>
+</div>It's official! The&nbsp;<a href="http://www.imore.com/apple-iphone-5-and-ipad-mini-event-planned-september-12-iphone-5-release-date-september-21" rel="nofollow" target="_blank">rumored</a>&nbsp;September 12th event was &nbsp;<a href="http://www.loopinsight.com/2012/09/04/apple-announces-special-event-for-september-12/" rel="nofollow" target="_blank">officially</a> <a href="http://www.macrumors.com/2012/09/04/apple-issues-invitations-for-media-event-on-september-12/" rel="nofollow" target="_blank">announced</a>&nbsp;on the 4th! It is assumed by the invitation that this is the long awaited, long rumored iPhone 5 release. I've seen many, many crazy rumors about what the new iPhone might have/look like. However, some of the rumors I think are very likely. I'll cover a few of the most interesting rumors here.<br>
+<br>
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/09/timelapse-of-moon">Timelapse of the moon</a> <small>- September 01, 2012</small></h3>
+  <div>
+    
+      A couple nights ago, I did my first timelapse of the moon and stars. It was so much fun to do and I'm quickly learning what does and does not work. :-) Take a look at the timelapse below:
+
+
+
+
+  
+    
+    
+    
+    
+  
+(Bonus: This footage was shot on August 29th, the night before the first blue moon since 2009. I do also have a timelapse from the 31st, which I'll post at some future point)
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/08/new-unix-commands-and-tools-in-mountain">New UNIX commands and tools in Mountain Lion</a> <small>- August 01, 2012</small></h3>
+  <div>
+    
+      
+  One of the users at Ask Different&nbsp;recently posted an article on the Ask Different Blog. It is a very cool post about all the new UNIX commands in the latest release of OS X. In the article, he details six new commands included with Mountain Lion. Enjoy the article here.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/mountain-lion-released-today">Mountain Lion released today!</a> <small>- July 25, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  OS 10.8, the eight major release of Apple's desktop operating system has been released! The new cat, dubbed Mountain Lion sports over 200 new features. Some of the major features include iCloud tab syncing, documents in the cloud, Notification Center, and iMessage for the Mac, and Siri-like dictation. See all the new features on Apple's website. We've been hearing a lot about Mountain Lion for the past six months, as Mountain Lion has been in beta for developers. But now it is finally being released to the masses! Get it on the Mac App Store today for only $19.99!
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/mountain-lion-to-be-released-tomorrow">Mountain Lion to be released tomorrow!!</a> <small>- July 24, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  Mountain Lion is officially slated for release tomorrow. Apple confirmed the July 25th rumors today at its&nbsp;third-fiscal-quarter earnings release this afternoon. You can hear the webcast of the earnings call on Apple's website.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/how-to-build-web-page-in-25-steps-joke">How To Build A Web Page In 25 Steps (joke)</a> <small>- July 23, 2012</small></h3>
+  <div>
+    
+      Download a piece of Web authoring software - 20 minutes. Think about what you want to write on your Web page - 6 weeks. Download the same piece of Web authoring software, because they have released 3 new versions since the first time you downloaded it - 20 minutes. Decide to just steal some images and awards to put on your site - 1 minute. Visit sites to find images and awards, find 5 of them that you like - 4 days. Run setup of your Web authoring software. After it fails, download it again - 25 minutes. Run setup...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/funny-computer-terms">Funny Computer Terms</a> <small>- July 19, 2012</small></h3>
+  <div>
+    
+      The following definitions were lifted from an article in "American Lawyers Technology". Computer Terms II ALPHA: Software undergoes alpha testing as a first step in getting user feedback. Alpha is Latin for "doesn't work". BETA: Software undergoes beta testing shortly before it's released. Beta is Latin for "still doesn't work". COMPUTER: Instrument of torture. The first computer was invented by Roger "Duffy" Billingsly, a British scientist. In a plot to overthrow Hitler, Duffy disguised himself as a German ally and offered his invention as a gift to the dictator. The plot worked. On April 8, 1945, Hitler became so enraged...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/apple-store-being-updated">Apple Store down for updates</a> <small>- July 18, 2012</small></h3>
+  <div>
+    
+      The Apple Store is being updated right now... Could this mean they are releasing something? Update 10:36 PM PST: Store is still down more than an hour later... Update 11:24 PM PST: Cnet and Sam R. Hill&nbsp;have both posted articles suggesting a Mountain Lion release. However, according to the Mac Rumors guide, both the Mac mini&nbsp;and the iMac&nbsp;are due for an upgrade anytime now. Stay tuned for more news... Update July 18th: False alarm! Looks like Apple was just doing routine maintenance. No Mountain Lion, nothing. However, I have a theory that Apple took the store down to add all...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/rumors-say-that-os-x-mountain-lion-will">Rumors say that OS X Mountain Lion will release on July 25th</a> <small>- July 17, 2012</small></h3>
+  <div>
+    
+      There are many rumors about the release date of OS X Mountain Lion (No, I really do mean many, many, many, rumors).&nbsp;In case you didn't catch on, every single word in that sentence was a separate link to an article about the release date of OS X Mountain Lion. All of these articles suggest that the release date is set for next July 25th, next Wednesday. There are a couple reasons why this rumor is plausible. First of all, the Gold Master version was released to developers last Monday, the 9th. If you don't know, the Gold Master version is...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/free-ruler">Free Ruler</a> <small>- July 17, 2012</small></h3>
+  <div>
+    
+      Free Ruler is another great application that I use on a regular basis. Since I intern with Nathan Bunney at&nbsp;Inventaweb.net, which is a web design company, I often need to figure out the pixel dimension of an area. Free Ruler does just that. It is a really simple application and is very easy to use. To use Free Ruler, first download it here&nbsp;(note that there are two versions, the Lion version and the pre-Lion version, so do make sure you grab the right one). When you open it, you can see that there are two rulers, a horizontal ruler and...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/07/disk-inventory-x">Disk Inventory X</a> <small>- July 17, 2012</small></h3>
+  <div>
+    
+      I know it has been awhile since I've posted, so I decided to post about an application. Disk Inventory X is an application for disk visualization. Put simply, Disk Visualizer X scans all your files, then shows them in terms of how much space they take up on your hard drive. It is really helpful if your hard drive is filling up, but you don't know what is taking up so much space. In this post, I will walk you through the main features of the application.&nbsp; When you first open the application, Disk Inventory X displays the hard drive(s)...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/06/wwdc-2012-keynote-video">WWDC 2012 Keynote video</a> <small>- June 11, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  The WWDC Keynote from this morning is now available from Apple. You can watch the full video of the event here.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/06/os-x-mountain-lion-ships-next-month">OS X Mountain Lion ships next month</a> <small>- June 11, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  OS X Mountain Lion will ship next month for just $19.99 for all your personal Macs. Any of the new computers announced today will come with a free upgrade to OS 10.8. Developers get a near final build today...More news from the Apple keynote as the event going on to iOS 6...
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/06/next-generation-macbook-pro-announced">Next generation MacBook Pro announced this morning!</a> <small>- June 11, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  
+
+  
+    Apple announced a next generation MacBook Pro this morning at WWDC. It has a retina display at a resolution of 2880 x 1800 with 220 pixels per inch. Also, USB 3.0 and two Thunderbolt ports:
+  
+
+  
+    
+  
+
+  
+    At $2199 for the base model, that is a very aggressive price!
+  
+
+  
+    
+  
+
+  
+    And it ships:
+  
+
+  
+    
+  
+
+  
+    Very nice! And the keynote isn't even over! Back to the live blogs!
+  
+
+  
+    
+  
+
+  
+    Update after the keynote: You can see all about the new MacBook Pro here.
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/06/ios-6-to-be-previewed-at-wwdc-2012">iOS 6 to be previewed at WWDC 2012</a> <small>- June 10, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  A couple of days ago, 9to5Mac reported that banners for iOS 6 have gone up at Moscone West.&nbsp;The banners include a new logo for iOS, as well as the slogan: "The world's most advanced mobile operating system." I can't wait to see what Apple has planned for iOS 6 as well as everything else due to be released/previewed this Monday!
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/06/wwdc-2012-live-blogsstreams">WWDC 2012 Live blogs/streams</a> <small>- June 10, 2012</small></h3>
+  <div>
+    
+      WWDC 2012 is right around the corner. Only a couple days until the keynote! &nbsp;You can follow along with various live streams/blogs. I found several live streams, but it doesn't seem like Apple is planning to actually stream the event, so the live streams will probably be just coverage of the keynote. Here are some links to live coverage streams: AppleKeynotes on Ustream, MacBreak Weekly, Apple Fan Site on Ustream, gdgt live coverage. There are also a number of live blogs, as usual. Here are just a some of the ones I found: MacRumors Live, WWDC 2012 Live, The Verge,...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/06/wwdc-2012-coming-up-new-macbook-pro-in">WWDC 2012 coming up: A new MacBook Pro in the works?</a> <small>- June 07, 2012</small></h3>
+  <div>
+    
+      The first banners for WWDC 2012 have gone up at the Moscone Center. The banner reads "WWDC 2012: Where great ideas go on to do great things." The banner sports many popular iOS apps, such as Facebook (very interesting to me, as Apple hasn't been on good terms with Facebook), Evernote, and Netflix. A high-res image is available&nbsp;here, thanks to MacRumors. WWDC is only 4 days away. I am really excited to see what is unveiled at the keynote on Monday. I can't wait for the event, so I decided I'd write up a blog post about the rumors surrounding...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/05/doodle-4-google-winner">Doodle 4 Google winner</a> <small>- May 18, 2012</small></h3>
+  <div>
+    
+      The winner of the Doodle 4 Google contest&nbsp;was announced today and the doodle is currently featured on Google's homepage. I've written about the Doodle 4 Google contest in a couple posts.&nbsp;Here's the final doodle: Congratulations to second grader&nbsp;Dylan Hoffman of Caledonia, Wisconsin! Here is his description of his doodle: He would travel back in time and "sail a pirate ship looking for treasure, have a colorful pet parrot and enjoy beautiful sunsets from deserted islands." Along with his doodle being featured on the Google homepage today, Dylan won&nbsp;30,000 college scholarship, a Chromebook computer and a $50,000 technology grant for his...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/05/apple-announced-q2-earnings-for-2012">Apple announced Q2 earnings for 2012</a> <small>- May 10, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  Apple released its Q2 2012 earnings on April 24th. The company sold over 35 million iPhones in this last quarter, down from 37 million iPhones in Q1 of this year (Q1 report). Apple sold over 11 million iPads, as well as more than 7 million iPods, and 4 million Macs. The sales have decreased a bit from last quarter's earnings, but Apple is certainly still growing. What do you think? What are next quarter's earnings going to look like?
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/05/lion-1074-update-released-today">Lion 10.7.4 Update released today</a> <small>- May 10, 2012</small></h3>
+  <div>
+    
+      OS X Lion saw an update today: OS 10.7.4. Download the update here, or just open up Software Update on your Mac. (Apple menu  &gt; Software Update) The OS X Lion v10.7.4 Update includes fixes that: Resolve an issue in which the "Reopen windows when logging back in" setting is always enabled. Improve compatibility with certain British third-party USB keyboards. Addresses permission issues that may be caused if you use the Get Info inspector function "Apply to enclosed items…" on your home directory. For more information, see this article. Improve Internet sharing of PPPoE connections. Improve using a proxy...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/05/pagerank-2-blog">PageRank 2 Blog!!!!</a> <small>- May 09, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  Last week, it was reported that a Google PageRank update was on its way.&nbsp;I'm seeing the effects of that now as The Geek Tech Blog has just been bumped to a PageRank 2!!!! I hope to switch to a .com address pretty soon, so stay tuned.
+  
+  Thanks to all who are reading and have read my blog!
+  Matthew D.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/05/adobes-cs6-begins-shipping-today">Adobe's CS6 begins shipping today</a> <small>- May 07, 2012</small></h3>
+  <div>
+    
+      Adobe's latest release of its Creative Suite (CS) began shipping today, after announcing it on April 23th. The latest version has been updated for better performance. Specifically, the applications have been updated to take advantage of the 64 bit processing power. They have also changed the UI a bit to make it more user friendly, as well adding the ability to set custom layouts. Other features include content aware filling, as well as the announcement of two new webapps: Adobe Muse and Adobe Edge. I will do a more in depth post covering all the new features of Adobe's suite...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/05/apple-releases-ios-511">Apple releases iOS 5.1.1</a> <small>- May 07, 2012</small></h3>
+  <div>
+    
+      iOS 5.1.1 was released today. It isn't a major upgrade, as it just is a bug fix release. Here's what it addresses: Improves reliability of using HDR option for photos taken using the Lock Screen shortcut Addresses bugs that could prevent the new iPad from switching between 2G and 3G networks Fixes bugs that affected AirPlay video playback in some circumstances Improved reliability for syncing Safari bookmarks and Reading List Fixes an issue where 'Unable to purchase' alert could be displayed after successful purchase It also addresses three critical Safari vulnerabilities: A maliciously crafted website may be able to spoof...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/05/doodle-4-google-followup">Doodle 4 Google followup</a> <small>- May 04, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  
+  I posted about Google's contest Doodle 4 Google&nbsp;in this post. Here's an update on the contest:
+  The winners from are in! You can view them and vote on them here.&nbsp;The state finalists are listed here.&nbsp;They are great doodles. Check them out and vote on your favorite. Again, the winning doodle will be featured on Google's homepage on May 18, 2012.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/04/wwdc-2012-tickets-sold-out-in-under-two">WWDC 2012 tickets sold out in under two hours</a> <small>- April 25, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  
+  This morning, Apple announced WWDC 2012. The event will be held June 11th through June 15th. As rumored before, this year's WWDC will be held in the Moscone Center. Tickets sold out in under two hours after the announcement. Conference tickets were sold for $1,599, the same price as last year's tickets. More information about WWDC 2012 can be found on Apple's website.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/04/wwdc-2012-to-begin-on-june-11">WWDC 2012 to begin on June 11?</a> <small>- April 13, 2012</small></h3>
+  <div>
+    
+      Techradar and Cult of Mac&nbsp;have both reported that WWDC 2012 may be set for the week of June 11th. A mysterious "Corporate Event" has been booked at the Moscone Center. There hasn't been any official news, but the "Corporate Event" seems very likely to be Apple's WWDC conference. See the Moscone Center schedule&nbsp;or the screenshot below. Techradar has said that it thinks iOS 6 may be unveiled this summer as well as the release of OS X Mountain Lion. Both Techradar and Cult of Mac say that we won't see the iPhone 5 this summer, but rather Apple will release...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/04/how-to-uninstall-flashback-trojan">How to uninstall the Flashback Trojan</a> <small>- April 11, 2012</small></h3>
+  <div>
+    
+      &nbsp;The Flashback trojan is a Mac virus that now has control of over 600,000 Macs. It poses as the Adobe Flash Player Updater and exploits a security hole in Java. It then steals all your user names and passwords for popular websites. Apple released a Java update that fixes the problem. Download Java for Mac OS X 10.6 Update 7 (Snow Leopard users) or Java for OS X Lion 2012-002&nbsp;(Lion users). Both these links are to Apple KB articles that describe the update and allow you to download the installer package. Recently there was a question posted on Ask Different&nbsp;asking...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/new-video-from-offblock-films">New video from OffBlock Films</a> <small>- March 27, 2012</small></h3>
+  <div>
+    
+      
+  I've mentioned in other articles about OffBlock Films, a film company that I started with Nic H. Over this last weekend, we worked on a short skit. Watch it below. Like, comment, share, anything you can do to get it out! Thanks for watching and enjoy!
+
+  
+    
+      
+      
+      
+    
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/ipad-3-teardown-now-avaible">iPad 3 teardown now avaible</a> <small>- March 22, 2012</small></h3>
+  <div>
+    
+      
+  
+
+  
+    
+  An iPad 3 teardown is now available via iFixit. Check it out here&nbsp;or watch the video below:
+  
+
+  
+    
+      
+      
+      
+    
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/ipad-3-released-today">iPad 3 released today</a> <small>- March 16, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  The long awaited iPad 3 hit the market today at 8 AM. It was released in 10 different countries&nbsp;simultaneously. Apple has reported that the pre-orders for the new iPad were "off the charts." As I've already written, the 3rd generation iPad will be $499 for the 16GB Wi-Fi version, the same as the previous prices for the iPad 2.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/google-logo-2012">Google Logo 2012</a> <small>- March 14, 2012</small></h3>
+  <div>
+    
+      I wanted to briefly post about a new contest that Google is doing for their next doodle. Google usually has doodles for their logo on special days. They are inviting kids from K-12 to create a doodle for this year's theme: "If I Could Travel In Time, I'd Visit..." The winning artist will receive $30,000 for college and a $50,000 grant for their school, as well as having his/her doodle featured on Google. There are a couple of rules: The drawing can be made with pen, pencil, crayon, paint, or computer drawing software. However, Google is not accepting 3D designs....
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/ipad-3-announcement-video-available">iPad 3 announcement keynote video available</a> <small>- March 08, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  This morning, the new iPad was unveiled. As usual, Apple didn't stream the event. However, the keynote video is now available via Apple's website. You can watch it here.&nbsp;Take a look!
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/ios-51">iOS 5.1</a> <small>- March 07, 2012</small></h3>
+  <div>
+    
+      Along with the new iPad, iOS 5.1 was released today. It contains several improvements for iOS 5, including battery bug fixes, and Siri support for Japanese. iOS 5.1 has been in beta for a couple months now, so it's no&nbsp;surprise&nbsp;that Apple released iOS 5.1 with the new iPad. This is a milestone update, because it is the first update that iOS users can receive "over the air". iOS 5.1 will not require a computer to install, unlike all previous updates. Other features of iOS 5.1 include: • &nbsp; Genius Mixes and playlist for subscribers of iTunes Match • &nbsp; Optimized...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/new-ipad">The new iPad</a> <small>- March 07, 2012</small></h3>
+  <div>
+    
+      The iPad 3 was&nbsp;announced&nbsp;this morning! Several new features were&nbsp;announced. The majority of the new features were hardware-based and not software. The biggest and most rumored feature was the famed Retina display. The new iPad (there is no actual name) now features a higher than HD screen.&nbsp;2048 x 1536, to be exact. It has 3.1 million pixels. "The most ever in a mobile device." Phil Schiller says, "This presents a problem for us in presenting it to you. For the first time, an iPad has a higher resolution than the entire display behind you...that's a fun challenge." That is crazy! The...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/ipad-3-live-streams">iPad 3 Live streams</a> <small>- March 07, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  The iPad 3 announcement is this morning in San Francisco. You can find several live streams and live blogs. TWiT is providing live coverage via Ustream.&nbsp; You can also tune into another Ustream live video feed&nbsp;courtesy of AppleKeynotes. TechCrunch has a Ustream feed. If you want to follow along the old fashioned way, there's also a live blog on Cnet. Hope you enjoy the event!! I can't wait!!
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/offblock-films-first-youtube-video">OffBlock Films' first Youtube video</a> <small>- March 07, 2012</small></h3>
+  <div>
+    
+      
+  My last post was about OffBlock Films. I wanted to update you about our progress. We've posted our first Youtube video. It's a video of Lightazmic's&nbsp;light show synced to Trans-Siberian Orchestra's "Wizards in Winter." Watch it below:
+
+  
+    
+      
+      
+      
+    
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/03/offblock-films">OffBlock Films</a> <small>- March 04, 2012</small></h3>
+  <div>
+    
+      
+  
+
+  
+    
+  Some of you may know that I started a film company not too long ago with my friend Nic. We have finally got the website finished, so go check it out at OffBlock Films.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/02/web-browser-poll">Web browser poll</a> <small>- February 21, 2012</small></h3>
+  <div>
+    
+      
+  I created a survey awhile back to find out what web browsers people are using and why. It was just recently posted on the Super User blog. You can find the blog post here. The survey is posted there, along with a link to the spreadsheet where the results are recorded.
+  
+  Matthew D.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/02/ipad-3-rumors-revisited">iPad 3 rumors revisited</a> <small>- February 17, 2012</small></h3>
+  <div>
+    
+      
+  
+    
+  
+  I have written about the rumors of an iPad 3 in a previous post last summer.&nbsp;According to an iMore article, there will be an iPad event on March 7, 2012. In a post on All Things D, John Paczkowski also confirms the event. Apple has declined to comment on the event, as it usually does. Several sources&nbsp;seem to indicate that the next generation iPad will include a retina display, an A6 processor, and LTE support. What do you think? Are these rumors true and reliable? Leave me a comment and let me know what you think?
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/02/page-rank-1-blog">Page rank 1 blog</a> <small>- February 16, 2012</small></h3>
+  <div>
+    
+      
+  
+
+  
+    
+  
+
+  I just found out that The Geek Tech Blog is now has a page rank of one! I don't know when this happened, but I am really excited!! Thanks to all who have read my blog in the past!!
+  
+  Matthew D.
+
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/02/mountain-lion">Mountain Lion</a> <small>- February 16, 2012</small></h3>
+  <div>
+    
+      New Apple releases always interest me. Today, Apple announced OS X Mountain Lion (10.8), and made a preview release available to developers. Major features of the eighth release of OS X include: Tighter integration with iCloud. iMessage. Now you can send messages for free from your desktop to any Apple device that supports iMessage. Twitter is also more integrated with the OS, as Apple is bringing over features from iOS 5. Sharing. Mountain Lion will make it easy to share photos and other media with a click of the button, whether it is over Airdrop, Flickr, or Twitter. Notification Center....
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/01/how-to-use-finder-in-os-x-to-connect-to">How to use Finder in OS X to connect to a server</a> <small>- January 28, 2012</small></h3>
+  <div>
+    
+      
+  
+    Just a quick little post. Here's a little known feature in Finder that you may not know about. If you go to Go&gt;Connect to Server... or use the keyboard shortcut Command&nbsp;(⌘)&nbsp;+ K...
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  You'll be presented with a dialog box that allows you to connect to any server.
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    Not only can you do FTP servers, but you can also connect to SFTP, VNC, and AFP servers.
+  
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/01/dimitri-shostakovich-dance-1">Dimitri Shostakovich Dance 1</a> <small>- January 26, 2012</small></h3>
+  <div>
+    
+      
+  I just wanted to post briefly about a Youtube video I posted last summer. It's a video of the Summer Music at Stanislaus band performing Dimitri Shostakovich's Dance 1. It is now on page one when you do a Google search for "Dimitri Shostakovich Dance 1".&nbsp;I did the video taping and video editing for it.&nbsp;Check it out below and let me know what you think about it by leaving a comment.
+  
+
+  
+    
+      
+      
+      
+    
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/01/google-personal-results">Google personal results</a> <small>- January 21, 2012</small></h3>
+  <div>
+    
+      I just recently noticed something interesting on Google. When you search, you can turn off personal results. I have noticed that PHP, Javascript, and other web programming related results have started to show up on searches that aren't really related. I thought it was very interesting that Google has begun to give you personal results based on what links you have clicked on in the past. I hope you've enjoyed this little tidbit of information. Please comment and let me know what you think. Do you think it is a good idea for Google to begin serving personal results and...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/01/ask-different-best-practices-podcasts">Ask Different best practices podcasts</a> <small>- January 19, 2012</small></h3>
+  <div>
+    
+      
+  As I have mentioned before, I am an active member of Ask Different, a Q and A site for Apple questions. Just recently, the podcast hosts recorded a podcast about the best practices for Ask Different. I would highly recommend listening to this podcast. It is a little long, but for anyone who participates in not only Ask Different, but any of the Stackexchange network sites. You can go listen to the podcast here.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/01/interesting-link-building-article-by">Interesting link building article by Nathan Bunney</a> <small>- January 14, 2012</small></h3>
+  <div>
+    
+      
+  Nathan Bunney just recently wrote a very good article on SEO link building. I really liked it because it is a succint and informative post about link building. Go check it out here: How to build great links to your site.
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/01/stackexchange-chat-bots">Stackexchange chat bots</a> <small>- January 11, 2012</small></h3>
+  <div>
+    
+      As you probably know, I am a member of the Stackexchange Q&amp;A network. There are a couple interesting chat bots in the chat rooms. The first is Eliza. You can find her user profile&nbsp;here.&nbsp;Eliza is actually an old chat bot that was ported to the Stackexchange chat room The Couch. It was one of the first chat bots programmed. She was written by Joseph Weizenbaum between 1964 and 1966. You can also find her in OS X's Terminal. If you type in 'emacs' at the prompt, then Shift + Esc, then x doctor then press Enter, you will be greeted...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2012/01/mozilla-prism">Mozilla Prism</a> <small>- January 06, 2012</small></h3>
+  <div>
+    
+      I've posted about Mozilla Prism before in this tutorial, but I wanted to come back and take a closer look at it. Mozilla Prism allows you to turn any webpage into an application on both Mac and PCs. Let's open it up and take a look. Here's the main window of Prism: As you can see, I've entered a URL (google.com) and a title (Google). Prism has auto-detected an icon for the application, but since it's so small, it will be really pixelated. Let's fix that first. I'm going to click Settings&gt;Choose image... And I'm going to select a Google...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/12/121911-update">12/19/11 - Update</a> <small>- December 20, 2011</small></h3>
+  <div>
+    
+      
+  Quick update on our progress...FurnitureBuyr is at about 300,000 indexed pages. We have several new site designs, courtesy of CMurray Designs.&nbsp;One of these is ClothingBuyr.
+  
+  ClothingBuyr - The best place for clothes at the best prices
+  
+  If you like this site, please share it with your friends or +1 it on Google
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/12/xray">Xray</a> <small>- December 20, 2011</small></h3>
+  <div>
+    
+      Xray&nbsp;is a handy little Javascript tool for web developers. It allows you to "X-ray" any webpage so you can see positions, margins, padding, dimension, and extra details of any HTML element. The great thing about it that it costs...nothing! It's free! It's not even a download! All you need to do is drag this bookmark&nbsp;to your bookmarks bar. When you need it, you just click on the bookmark and you'll be presented with a nice little welcome screen: You can click on any element to X-ray it: All in all, it's a really great little tool. I would highly recommend...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/10/funny-things-siri-says">Funny things Siri says</a> <small>- October 21, 2011</small></h3>
+  <div>
+    
+      
+  
+    
+  
+
+  
+    
+  
+
+  
+    Well, the iPhone 4S was released a little over two weeks ago, along with iOS 5 and Siri, a personal voice assistant. I haven't used it yet :-(, but I've seen some videos of Siri in action. I'm amazed! She has some pretty funny things to say. Here are just &nbsp;a few of the ones that I've found. Enjoy!
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/09/lion-like-screen-sharing-without-lion">Lion-like screen sharing without Lion</a> <small>- September 07, 2011</small></h3>
+  <div>
+    
+      This was so amazing I just had&nbsp;to share it. You probably have heard about Lion's new screen sharing. Well, did you know that you can get the same capabilities on a non-Lion Mac? Yes, you heard it right, Lion-like screen sharing on a non-Lion Mac. It's absolutely amazing! I can now have two users logged in to the same computer, one is a physical user actually sitting at the computer, the other is a networked user who can log into his/her desktop without disrupting the physical user. Let's get into how to do this. 1. Download Vine Server from their...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/09/audio-video-production-q-on">Audio-Video Production Q & A on Stackexchange</a> <small>- September 06, 2011</small></h3>
+  <div>
+    
+      I have been using the Stackexchange network&nbsp;of Q&amp;A sites, and I wanted to post about a particular site that is in public beta right now that is in need of new users. The Audio-Video Production site is for questions about: broadcast, film, audio, music, or location recording techniques editing, mixing, mastering, and distribution post-production techniques signal processing asset management, media, and file formats installation, configuration, and operation of software related to these topics If you are interested at all in any of these things, please head over to the AVP site and check it out. If you want to check...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/update-on-buyr-sites">Update on the Buyr sites</a> <small>- August 18, 2011</small></h3>
+  <div>
+    
+      Here's an update on the Buyr sites. We hit a milestone mark about two weeks ago. Two of the sites were getting page one results. By now, I think we are getting page one results on more than one site. ClothingBuyr.com has now over 70,000 indexed pages with Google. We are very happy with the progress we are seeing on these sites. We have had two server crashes in the last two weeks, both on a Saturday which was very bad. So, we are getting two servers. Half of the sites will be on one server and half will be...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/how-to-make-slideshow-in-idvd">How to make a slideshow in iDVD</a> <small>- August 18, 2011</small></h3>
+  <div>
+    
+      iDVD is a powerful DVD authoring software developed by Apple. In this tutorial, I will show you how to make a simple slideshow in iDVD. Note that this is a simple tutorial. There are many advanced features in iDVD that I will not cover in this tutorial. Check back for more iDVD tutorials. 1. Open iDVD 2. When the iDVD startup screen appears, choose "Create a New Project". 3. In the "Create Project" dialog, name your project and choose a location to store it. Also note the Standard/Widescreen selection. Make sure that "Widescreen" is selected. 4. iDVD will open up...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/how-to-make-grooveshark-stand-alone_7630">How To Make Grooveshark A Stand-Alone Application with Hot Keys, Part 2 of 2 for Windows Users</a> <small>- August 11, 2011</small></h3>
+  <div>
+    
+      Click here for the first part of this tutorial. 1. Download Wget for PC&nbsp;here and grab a copy of AutoHotKey here. Install both. 2. Open AutoHotkey, (it's located wherever you downloaded it). When it asks you if you want to generate a example script, click "Yes". 3. Create a new hot key for Grooveshark by adding this line: &nbsp; &nbsp; HOTKEYS::Run, WGET_EXE --spider --no-cache KEYSHARKY_API, , Hide 4. &nbsp;The "HOTKEYS" is where you define the keyboard shortcut. For example, you could put #G (Windows key and "G" key) See the AutoHotkey documentation for more info. 5. Replace the WGET_EXE with...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/how-to-make-grooveshark-stand-alone_11">How To Make Grooveshark A Stand-Alone Application with Hot Keys, Part 2 of 2 for Mac Users</a> <small>- August 11, 2011</small></h3>
+  <div>
+    
+      Click here for the first part of this tutorial. 1. Download Spark, a free global hot key application for OS X. You pick up a copy here. 2. Once you have installed Spark, launch it. When the Spark window starts up, create a new Applescript hot key by either going to the gear menu in the top left-hand corner and selecting Applescript or by going to File&gt;New HotKey&gt;Applescript 3. Enter this information in the setup window that slides down: 1. Shortcut: ⌃⌘⌥ F8 (you can change this to anything) 2. Name: Play/Pause Grooveshark (again, you can change this name to...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/how-to-make-grooveshark-stand-alone">How To Make Grooveshark A Stand-Alone Application with Hot Keys, Part 1 of 2</a> <small>- August 11, 2011</small></h3>
+  <div>
+    
+      This tutorial will show you how to make Grooveshark a stand-alone application with hot keys, for free! First, you'll need to download these files. 1. Download Prism here. Prism is an application developed by Mozilla, and turns web URLs into standalone applications. More information about Prism can be found at the Prism wiki. 2. Open Prism and fill in the information as follows: 1. URL: http://www.grooveshark.com 2. Name: Grooveshark 3. Select the checkboxes "Show status messages and progress", "Desktop" (Under "Create Shortcuts") 4. Under the "Settings" drop-down menu (at the bottom), navigate to the folder that you downloaded earlier and...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/how-to-download-videos-from-youtube">How to download videos from YouTube</a> <small>- August 09, 2011</small></h3>
+  <div>
+    
+      YouTube is great for watching videos online, but sometimes videos go away. So, in this tutorial, I'll teach you how to download videos from YouTube. Though I'm on a Mac, this tutorial should apply to PC users as well. 1. Grab the URL of the YouTube video that you want to download. It should look something like this: 2. Then, go to KeepVid.com and enter the URL in the&nbsp;download bar 3. ...And click Download. The page should say "Loading Java applet". Depending on your browser, you may have to grant the applet permission to run. 4. Once the page has...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/rumors-of-ipad-3">Rumors of an iPad 3</a> <small>- August 09, 2011</small></h3>
+  <div>
+    
+      There has been much speculation over whether there will be an iPad 3 released this fall.&nbsp;For one, Apple is going to have competition when new Android 3.0 tablets flood the market this fall. It would also make since for Apple to release a new version before Christmas to gain sales. There are many rumors and not many facts. For example, the folks at iPad 3 News Blog, have written many articles about what exactly will be released. According to these articles, Apple may be releasing an updated version of the iPad 2 called the iPad 2 Plus&nbsp;before an iPad 3...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/08/self-parking-cars">Self-Parking Cars</a> <small>- August 02, 2011</small></h3>
+  <div>
+    
+      I was reading here&nbsp;about self-parking cars. Very cool technology! Though the car is not completely autonomous (it requires the driver to release the brake pedal while the computer controls the steering wheel), it makes the job of parallel parking easier. Six manufacturers, Ford, &nbsp;Lexus, Toyota, &nbsp;Mercury, Lincoln, and BMW offer self-parking cars. To park the car, the computer uses sensors on the bumpers to detect open parking spaces. Then, the car tells the driver what to do via a computer screen with instructions on when to brake, etc. The car can't yet completely park itself but...it's a start. The Lexus...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/07/applescripting">A Simple AppleScripting Tutorial</a> <small>- July 25, 2011</small></h3>
+  <div>
+    
+      Among other things, I enjoy AppleScripting. AppleScript is a coding language built into Apple operating systems since OS 7 in 1993. It is used to control and exchange data with applications. Although AppleScript has limited processing power, its main job is to interact with already-built applications to increase efficiency by performing repetitive tasks. And no, you PC users can't use it. So, what can you do with AppleScripts? Well, open up AppleScript Editor (Script Editor on OS X systems before Snow Leopard 10.6). It's in Applications&gt;AppleScript&gt;. Here's a very simple example of AppleScripting. display dialog "Hello World!" This will display...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/07/mac-os-x-lion">Mac OS X Lion</a> <small>- July 23, 2011</small></h3>
+  <div>
+    
+      As all of you Mac fans out there already know, Mac OS 10.7 Lion was released on Wednesday, July 20, 2011, changing the way the Mac works and looks. It has incorporated many of the features of iOS, including&nbsp;Lauchpad&nbsp;a new application launcher that acts and looks like the iOS home page. I am also really looking forward to the&nbsp;multi-touch gestures, which bring iOS-like gestures, such as pinch to zoom, swiping, and scrolling. I was at the Apple Store a couple of days ago, and I played around a little with Lion. I was really impressed with&nbsp;Mission Control.&nbsp;By using three fingers...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/07/fulfer-law-office">Fulfer Law Office</a> <small>- July 23, 2011</small></h3>
+  <div>
+    
+      
+  
+    
+  
+  This is a site that I didn't actually do any work on, but I watched Mr. Bunney get it up. Richard L. Fulfer is a California Attorney who has successfully practiced law since 1980. He has followed in his father's law practice and has faithfully served Stanislaus and San Joaquin County for 31 years.
+
+  
+    
+  
+
+  
+    Fulfer Law Office
+  
+
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/07/buyr-sites">The Buyr Sites</a> <small>- July 23, 2011</small></h3>
+  <div>
+    
+      This is a group of sites that I have been working on with Mr. Bunney. These sites are shopping comparison sites, like Shopzilla and PriceGrabber. They are built with special SEO tatics that in the long run should put us on page one of Google searches. We will eventually have 30 or so sites up, but right now we only have 20. TvBuyr.com had the most pages indexed by Google, but it has recently taken a downturn. As of today, it has 30K indexed pages. Right behind TvBuyr is ShoeBuyr.com at 18.5K indexed pages. The past few weeks I have...
+    
+  </div>
+</div>
+
+
+  <div class="white-panel grid-100">
+  <h3><a href="/2011/07/hello-to-all">Hello To All!</a> <small>- July 23, 2011</small></h3>
+  <div>
+    
+      
+  Hello!
+  This blog is for miscellaneous posts about computer stuff. I will also be posting about some of the websites I am working on with Nathan Bunney I am currently interning with him.
+  MSD
+
+    
+  </div>
+</div>
+
+
+    </div>
+  </div>
+  <footer>
+    <sub>&copy; 2011 - 2016 by Matthew Davies.</sub> <sub><a href="/licensing">License</a></sub> <sub><a href="/archive">Archive</a></sub> <sub><a href="/sitemap.xml">Sitemap</a></sub>
+    <p class="hide-on-mobile hide-on-desktop">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+  </footer>
+</body>
+<!-- Generated on November 26, 2016 - 12:57:45 PST -->
+</html>

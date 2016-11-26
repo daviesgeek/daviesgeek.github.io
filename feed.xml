@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>daviesgeek.com</title>
+    <description>Blog about technology, programming, and other related topics</description>
+    <link>https://daviesgeek.com</link>
+    <language>en-us</language>
+    <atom:link href="https://daviesgeek.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      
+        <item>
+          <title>Web tools are the problem</title>
+          
+          
+            <description>&lt;p&gt;Peter-Paul Koch on the ever growing overcomplication of web tools:&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Sat, 23 May 2015 12:25:00 -0700</pubDate>
+          <link><![CDATA[https://daviesgeek.com/2015/05/Web-tools-are-the-problem?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></link>
+          <guid isPermaLink="true"><![CDATA[https://daviesgeek.com/2015/05/Web-tools-are-the-problem?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Angular Service Providers with config</title>
+          
+          
+            <description>&lt;p&gt;Simple example of an Angular service provider with configuration option(s):
+&lt;!-- more --&gt;&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Fri, 22 May 2015 13:25:00 -0700</pubDate>
+          <link><![CDATA[https://daviesgeek.com/2015/05/Angular-service-provider-config?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></link>
+          <guid isPermaLink="true"><![CDATA[https://daviesgeek.com/2015/05/Angular-service-provider-config?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Google Chrome 41 update</title>
+          
+          
+            <description>&lt;p&gt;Cool updates to Google Chrome today. More recently I have been doing cross-browser testing in Firefox. One of the features of the Firefox inspector is a nice little highlight that shows up on elements that have changing properties:&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Fri, 06 Mar 2015 13:12:00 -0800</pubDate>
+          <link><![CDATA[https://daviesgeek.com/2015/03/Google-Chrome-41?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></link>
+          <guid isPermaLink="true"><![CDATA[https://daviesgeek.com/2015/03/Google-Chrome-41?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Running Docker on OS X</title>
+          
+          
+            <description>&lt;p&gt;Recently I started using &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; for my side projects and for the &lt;a href=&quot;http://valleyhackathon.com/&quot;&gt;Valley Hackathon&lt;/a&gt; a couple weeks ago. I really like the flexiblity and encapsulation that it offers, in contrast to tools like &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;.&lt;br /&gt;
+However, on a Mac, Docker runs on &lt;a href=&quot;http://boot2docker.io/&quot;&gt;boot2docker&lt;/a&gt;, a tiny image built just to run Docker containers within VirtualBox. This can cause some problems with features such as shared folders, since the Docker container loads volumes from within the boot2docker machine, not your OS X machine.&lt;br /&gt;
+Fortunately there’s a build of boot2docker that enables shared folders (via the Guest Additions). To install it:&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Thu, 05 Feb 2015 11:09:08 -0800</pubDate>
+          <link><![CDATA[https://daviesgeek.com/2015/02/Running-Docker-on-OS-X?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></link>
+          <guid isPermaLink="true"><![CDATA[https://daviesgeek.com/2015/02/Running-Docker-on-OS-X?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Blog Migration</title>
+          
+          
+            <description>&lt;p&gt;I recently switched this blog over from my old Blogger blog. I have been on Blogger for many years, but I never really &lt;em&gt;loved&lt;/em&gt; it. Several months ago, I discovered &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. Jekyll is a static blogging blogging/website engine that has all the convenience of a dynamic website, but with the speed of a static HTML website. I started using Jekyll and quickly realized that I &lt;strong&gt;had&lt;/strong&gt; to move my blog over to Jekyll.&lt;/p&gt;
+
+</description>
+          
+          <pubDate>Thu, 13 Nov 2014 13:59:51 -0800</pubDate>
+          <link><![CDATA[https://daviesgeek.com/2014/11/Blog-migration?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></link>
+          <guid isPermaLink="true"><![CDATA[https://daviesgeek.com/2014/11/Blog-migration?utm_source=rss&utm_medium=rss&utm_campaign=RSS]]></guid>
+        </item>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+  </channel>
+</rss>
